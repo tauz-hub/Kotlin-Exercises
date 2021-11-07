@@ -2,7 +2,7 @@ package Exercise3
 
 import org.junit.Test
 
-//Descubra se uma lista é um palíndromo.
+//Find out if a list is a palindrome.
 
 //old method
 //fun <T> isPalindrome(list: List<T>): Boolean {
