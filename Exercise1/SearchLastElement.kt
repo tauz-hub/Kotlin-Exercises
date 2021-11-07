@@ -7,7 +7,7 @@ class SearchLastElement {
     fun <T> last(list: List<T>): T? = if (list.isNotEmpty()) list[list.lastIndex] else null
 
     @Test
-    fun test1() {
+    fun main() {
         println(last(listOf(1, 2, 3, 4, 5, 6, 7, 8)))
         println(last(listOf(1, 3, 5, 4)))
         println(last(emptyList<Int>()))
