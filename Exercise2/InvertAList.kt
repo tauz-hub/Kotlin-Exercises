@@ -15,7 +15,7 @@ fun <T> reverseRec(list: List<T>): List<T> =
 
 class InvertAList {
     @Test
-    fun test5() {
+    fun main() {
         println(reverseRec(listOf(1, 1, 2, 3, 5, 8)))
     }
 }
